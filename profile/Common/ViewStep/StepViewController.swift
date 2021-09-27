@@ -9,6 +9,9 @@ import UIKit
 
 class StepViewController: UIViewController {
 
+    @IBOutlet weak var viewStepCount: UIView!
+    @IBOutlet weak var viewContent: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

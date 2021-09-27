@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26D42F432701D40A000CE426 /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D42F412701D40A000CE426 /* StepViewController.swift */; };
+		26D42F442701D40A000CE426 /* StepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D42F422701D40A000CE426 /* StepViewController.xib */; };
 		9949E91D252DFEFF00B0CEC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949E91C252DFEFF00B0CEC8 /* AppDelegate.swift */; };
 		9949E91F252DFEFF00B0CEC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949E91E252DFEFF00B0CEC8 /* SceneDelegate.swift */; };
 		9949E921252DFEFF00B0CEC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949E920252DFEFF00B0CEC8 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26D42F412701D40A000CE426 /* StepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
+		26D42F422701D40A000CE426 /* StepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepViewController.xib; sourceTree = "<group>"; };
 		9949E919252DFEFF00B0CEC8 /* profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = profile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9949E91C252DFEFF00B0CEC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9949E91E252DFEFF00B0CEC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26D42F3E2701D34C000CE426 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		26D42F3F2701D374000CE426 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				26D42F402701D389000CE426 /* ViewStep */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		26D42F402701D389000CE426 /* ViewStep */ = {
+			isa = PBXGroup;
+			children = (
+				26D42F412701D40A000CE426 /* StepViewController.swift */,
+				26D42F422701D40A000CE426 /* StepViewController.xib */,
+			);
+			path = ViewStep;
+			sourceTree = "<group>";
+		};
 		9949E910252DFEFF00B0CEC8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +127,8 @@
 		9949E91B252DFEFF00B0CEC8 /* profile */ = {
 			isa = PBXGroup;
 			children = (
+				26D42F3F2701D374000CE426 /* Common */,
+				26D42F3E2701D34C000CE426 /* Register */,
 				9949E91C252DFEFF00B0CEC8 /* AppDelegate.swift */,
 				9949E91E252DFEFF00B0CEC8 /* SceneDelegate.swift */,
 				9949E920252DFEFF00B0CEC8 /* ViewController.swift */,
@@ -233,6 +263,7 @@
 			files = (
 				9949E929252DFF0400B0CEC8 /* LaunchScreen.storyboard in Resources */,
 				9949E926252DFF0400B0CEC8 /* Assets.xcassets in Resources */,
+				26D42F442701D40A000CE426 /* StepViewController.xib in Resources */,
 				9949E924252DFEFF00B0CEC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +291,7 @@
 			files = (
 				9949E921252DFEFF00B0CEC8 /* ViewController.swift in Sources */,
 				9949E91D252DFEFF00B0CEC8 /* AppDelegate.swift in Sources */,
+				26D42F432701D40A000CE426 /* StepViewController.swift in Sources */,
 				9949E91F252DFEFF00B0CEC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
